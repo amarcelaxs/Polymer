@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>polymer-son</title>
+    <meta name="description" content="polymer-son description">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    
+    <script type="module" src="/src/polymer-son-app/polymer-son-app.js"></script>
+  <link rel="import" href="/node_modules/@wpolymer/polymer/index.html" >
+ </head>
+  <body>
+    <polymer-son-app></polymer-son-app>
+
+    <script type="text-javascript">
+      (funtion(){
+        Polymer({
+          is: 'my-element'
+        });
+
+        var myElement = document-creatElement('my-element');
+        console.log(myElement);
+      })();
+    </script>
+  </body>
+</html>
